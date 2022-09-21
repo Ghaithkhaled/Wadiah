@@ -1,0 +1,77 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header { 
+background-color: rgba(0, 17, 255, 0.281);
+width: 100%;
+z-index: 999;
+justify-content: space-between;
+align-items: center;
+padding: 20px 100px;
+display: flex;
+position: fixed;
+}
+section{
+  padding: 400px 300px
+}
+body{
+background-color: rgba(0, 17, 255, 0.521);
+}
+.foto{
+  width: 90px;
+  height: 50px;
+  display: flex;
+  }
+
+.navigation a {
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   font-size: 1.5em;
+   font-weight: 500;
+   padding: 90px;  
+   font-weight: 800;
+}
+.navigation a:hover{
+  color: rgb(24, 245, 3);
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./img/beirut-rocas-palomas.jpg) ; 
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+#main h2{
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  margin-left: -88px;
+}
+.w{
+  color: rgb(139, 25, 25);
+}
+
+#ti{
+   color: rgb(7, 7, 7);
+   font-size: 2.3em;
+   font-weight: 800;
+   margin-left: 50px;
+   margin-top: 300px;
+}
+
+.box{
+  background-color: rgb(255, 255, 255);
+  width: 25.25em;
+  box-shadow: 0 5px 25px rgb(81, 255, 0);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 50px;
+  transition: 0.7s ease;
+  margin-left: -250px;
+  margin-top: -200px;
+}
