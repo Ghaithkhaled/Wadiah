@@ -7,7 +7,7 @@
 }
 
 header { 
-background-color: rgba(0, 17, 255, 0.281);
+background-color: rgba(0, 17, 255, 0.384);
 width: 100%;
 z-index: 999;
 justify-content: space-between;
@@ -20,7 +20,7 @@ section{
   padding: 400px 300px
 }
 body{
-background-color: rgba(0, 17, 255, 0.521);
+background-color: rgba(0, 0, 2, 0.829);
 }
 .foto{
   width: 90px;
@@ -29,7 +29,7 @@ background-color: rgba(0, 17, 255, 0.521);
   }
 
 .navigation a {
-   color: rgb(0, 0, 0);
+   color: rgba(253, 0, 0, 0.493);
    text-decoration: none;
    font-size: 1.5em;
    font-weight: 500;
@@ -37,41 +37,230 @@ background-color: rgba(0, 17, 255, 0.521);
    font-weight: 800;
 }
 .navigation a:hover{
-  color: rgb(24, 245, 3);
+  color: rgba(0, 0, 0, 0.541);
 }
 #main{
     width: 100%;
     min-height: 100vh;
-    background: url(./img/beirut-rocas-palomas.jpg) ; 
+    background: url(./img/apple2.png) ; 
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
 }
 #main h2{
   font-size: 100px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   margin-left: -88px;
 }
 .w{
   color: rgb(139, 25, 25);
 }
 
-#ti{
-   color: rgb(7, 7, 7);
+.ti{
+   color: rgb(255, 255, 255);
    font-size: 2.3em;
    font-weight: 800;
-   margin-left: 50px;
-   margin-top: 300px;
+   margin-left: 130px;
+   margin-top: -150px;
 }
 
 .box{
   background-color: rgb(255, 255, 255);
-  width: 25.25em;
-  box-shadow: 0 5px 25px rgb(81, 255, 0);
+  width: 40.25em;
+  height: 14.00em;
+  box-shadow: 0px 10px 100px rgba(255, 94, 0, 0.452);
   border-radius: 10px;
   padding: 25px;
   margin: 50px;
   transition: 0.7s ease;
-  margin-left: -250px;
-  margin-top: -200px;
+  margin-left: -150px;
+  margin-top: 90px;
 }
+
+.box:hover {
+  transform: scale(1.2);
+}
+
+#foto{
+  margin-left: 1000px;
+  border-radius: 50px;
+  margin-top: -450px;
+  box-shadow: 0 5px 25px rgb(0, 255, 13);
+  width: 400px;
+}
+#naam{
+  margin-left: 27%;
+  padding: 9px;
+  font-size: 40PX;
+}
+.box p{
+  font-size: 24px;
+}
+                                         /* section2 hobby */
+#section2{
+  background-color: black;
+}
+#foto1{
+  margin-left: 1150px;
+  border-radius: 50px;
+  margin-top: -6500px;
+  box-shadow: 0 5px 25px rgb(0, 255, 13);
+  width: 400px;
+  height: 350px;
+}
+#foto2{
+  margin-left: -208px;
+  border-radius: 50px;
+  margin-top: -400px;
+  box-shadow: 0 5px 25px rgb(0, 247, 12);
+  width: 300px;
+}
+#titel
+  {color: rgb(255, 255, 255);
+  font-size: 2.3em;
+  font-weight: 800;
+  margin-left: 550px;
+  margin-top: -150px;}
+
+#boxhobby{
+background-color: rgb(255, 255, 255);
+width: 40.25em;
+height: 14.00em;
+box-shadow: 0px 10px 100px rgba(255, 94, 0, 0.452);
+border-radius: 10px;
+padding: 25px;
+margin: 50px;
+transition: 0.7s ease;
+margin-left: 22%;
+margin-top: 90px;
+}
+#naam2{
+margin-left: 200px;
+padding: 9px;
+font-size: 40PX;
+}
+#boxhobby:hover {
+  transform: scale(1.2);
+}
+                                       /* section2 muziek */
+#titel3{
+  color: rgb(255, 255, 255);
+  font-size: 2.3em;
+  font-weight: 800;
+  margin-left: 550px;
+  margin-top: -280px;
+  padding: -55px;
+}
+#nancy{
+  width: 300px;
+  border-radius: 28px;
+  margin-left:-250px;
+  margin-top: 50px;
+}
+#nancy2{
+  width: 300px;
+  border-radius: 28px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+#naam3{
+  font-size: 30px;
+  color: rgb(139, 25, 25);
+  margin-left: -55px;
+  margin-top: 55px;
+}
+#muziek1{
+ margin-left: -250px;
+ margin-top: 75px;
+}
+
+#muziek2{
+  margin-left: -250px;
+  margin-top: 75px;
+ }
+#Najwa1{
+width: 300px;
+border-radius: 28px;
+margin-top: -330px;
+margin-left: 400px;
+ }
+#Najwa2{
+width: 300px;
+border-radius: 28px;
+margin-top: -85px;
+margin-left: 600px;
+}
+#muziek3{
+  margin-left: 840px;
+  margin-top: 70px;
+ }
+ #muziek4{
+  margin-left: 840px;
+  margin-top: 70px;
+ }
+ #naam4{
+  font-size: 30px;
+  color: rgb(139, 25, 25);
+  margin-left: 1000px;
+  margin-top: -650px;
+ }
+                                       /* section4 contact */
+#contactm{
+  margin-top: 200px;
+  margin-left: -300px;
+  background-color: rgba(6, 2, 233, 0.473);
+  width: 2200px;
+  height: 200px;
+}
+#p{
+  color: rgb(0, 0, 0);
+  margin-left: 300px;
+  font-size: 50px;
+  padding: 25px;
+  font-weight: 700;
+}
+#imstagram{
+  width: 55px;
+  margin-left: 320px;
+}
+#whatsapp{
+  width: 55px;
+  margin-left: 55px;
+}
+#snapchat{
+  width: 60px;
+  margin-left: 60px;
+}
+#adres{
+  font-size: 25px;
+  margin-left: 1100px;
+  margin-top: -130px;
+}
+#mail{
+font-size: 20px;
+margin-left: 535px;
+color: rgb(92, 7, 7);
+text-decoration: none;
+margin-top:5px;
+padding: 15px;
+}
+#tel{
+font-size: 20px;
+margin-left: 550px;
+margin-top: 8px;
+color: rgb(92, 7, 7);
+text-decoration: none;
+}
+#contacthome{
+  margin-top: -150px;
+}
+#contacthome a{
+  margin-left: 1500px;
+  margin-top: -150px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 25px;
+  }
+  
